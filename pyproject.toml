@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "se2021"
+version = "0.1.0"
+description = "Morse encoding service."
+authors = ["itu-itis21-nuhi18 <nuhi18@itu.edu.tr>"]
+license = "BSD-3-LICENSE"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
